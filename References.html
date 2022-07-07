@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>celikerler</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="References.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src=
+        "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"> </script>
+        
+        
+        <script>
+                
+                
+    //***********************************************************************
+
+
+    
+    
+    document.addEventListener("DOMContentLoaded", function(){
+        
+                {myVar = setTimeout(showPagex, 1500);}
+                {myVar = setTimeout(showPage, 1000);}
+                
+                
+                function showPage() {
+                document.getElementById("LoadingID").style.opacity = "0%";}
+                
+                function showPagex() {
+                document.getElementById("LoadingID").style.display = "none";}  
+                
+                
+ 
+        
+        
+
+               
+                {
+                $('[lang="tr"]').show();
+                $('[lang="en"]').hide();
+                $('[lang="ar"]').hide();}    
+               
+                var lang=localStorage.getItem('lang');
+                localStorage.getItem('lang');   
+                if(lang==("en")){
+                $('[lang="en"]').show();
+                $('[lang="tr"]').hide();
+                $('[lang="ar"]').hide();}
+                
+                
+                if(lang==("tr")){
+                $('[lang="tr"]').show();
+                $('[lang="en"]').hide();
+                $('[lang="ar"]').hide();}
+                
+                if(lang==("ar")){
+                $('[lang="ar"]').show();
+                $('[lang="en"]').hide();
+                $('[lang="tr"]').hide();}});
+
+
+                
+    
+    
+                
+                $(document).ready(function () {
+                    $('#switch-lang-en').click(function() {
+                        $('[lang="tr"]').hide();
+                        $('[lang="en"]').show();
+                        $('[lang="ar"]').hide();
+                        localStorage.setItem('lang', 'en');
+                    });
+                });
+                
+    
+                $(document).ready(function () {
+                    $('#switch-lang-tr').click(function() {
+                        $('[lang="tr"]').show();
+                        $('[lang="en"]').hide();
+                        $('[lang="ar"]').hide();
+                        localStorage.setItem('lang', 'tr');
+                    });
+                });
+
+
+                $(document).ready(function () {
+                    $('#switch-lang-ar').click(function() {
+                        $('[lang="ar"]').show();
+                        $('[lang="en"]').hide();
+                        $('[lang="tr"]').hide();
+                        localStorage.setItem('lang', 'ar');
+                    });
+                });
+                $('.carousel').carousel({pause: "false"});
+                
+                //************************************************************************
+    
+                
+                </script>
+    </head>
+    <body>
+        
+        <DIV class="Loading" id="LoadingID" style="height: 100%;width: 100%;background-color: #ffffff;position: fixed;top: 0;z-index: 100;right: 0;transition: 0.5s;">
+           <div class="lds-facebook"><div></div><div></div><div></div></div></DIV>
+
+
+
+
+        <header>
+            <div class="nav-W"></div>
+        
+           
+            <DIV class="logo-DIV"><a href="Home.html"><img class="logo-IMG" src="/images/celikerler-logo.png" alt="logo"></a></DIV>
+                <UL class="menu">
+                    <li class="menuItem"><a href="#######"><DIV class="not-active-DIV"><p class="active-text"><span lang="en">HOME</span><span lang="tr">ANA SAYFA</span><span lang="ar">الرئيسيه</span></p>
+                    <!-- <DIV class="HOVER"></DIV> -->
+                    <DIV class="HOVERD-not-active"></DIV>
+                    
+                    </DIV></a></li>
+                    <li class="menuItem"><DIV class="not-active-DIV Inventory-M"><p class="not-active-text">PRODUCTS</p>
+                        <DIV class="HOVERD-not-active"></DIV>
+                    
+                    <div class="small-inventory"></div> 
+                    <div class="PRODUCTS-inventory">
+                        <div class="heavy-DIV">
+                        
+                            <div><a href="###"><p class="PRODUCTS-M-TEXT">Heavy seel</p></a></div>
+                            <div>
+                                <UL class="PRODUCTS-M-ul">
+                                    <LI><a href="###"><p class="PRODUCTS-S-TEXT">Çok Katlı Çelik Binalar</p></a></LI>
+                                    <LI><a href="###"><p class="PRODUCTS-S-TEXT">Endüstriyel Çelik Yapılar</p></a></LI>
+                                    <LI><a href="###"><p class="PRODUCTS-S-TEXT">Çelik Hangar Binaları</p></a></LI>
+                                    <LI><a href="###"><p class="PRODUCTS-S-TEXT">Çelik Yapı Teknik Özellikleri</p></a></LI>
+                                 </UL>
+                            </div>
+                    
+                        </div>
+                        <div class="Prefabrication-DIV">
+                        
+                            <div><a href="###"><p class="PRODUCTS-M-TEXT">Prefabrication</p></a></div>
+                            <div>
+                                <UL class="PRODUCTS-M-ul">
+                                    <LI><a href="###"><p class="PRODUCTS-S-TEXT">Prefabrik Ev Teknik Özellikleri</p></a></LI>
+                                    <LI><a href="###"><p class="PRODUCTS-S-TEXT">Prefabrik Ev Fiyatları</p></a></LI>
+                                    <LI><a href="###"><p class="PRODUCTS-S-TEXT">Prefabrik Villa</p></a></LI>
+                                    <LI><a href="###"><p class="PRODUCTS-S-TEXT">Prefabrik Dubleks Evler</p></a></LI>
+                                    <LI><a href="###"><p class="PRODUCTS-S-TEXT">Tek Katlı Prefabrik Evler</p></a></LI>
+                                 </UL>
+                            </div>
+                    
+                        </div>
+                        <div class="Light-DIV">
+                        
+                            <div><a href="###"><p class="PRODUCTS-M-TEXT">Light steel</p></a></div>
+                            <div>
+                                <UL class="PRODUCTS-M-ul">
+                                    <LI><a href="###"><p class="PRODUCTS-S-TEXT">Çelik Ev Teknik Özellikleri</p></a></LI>
+                                    <LI><a href="###"><p class="PRODUCTS-S-TEXT">Hafif Çelik Okul ve Hastaneler</p></a></LI>
+                                    <LI><a href="###"><p class="PRODUCTS-S-TEXT">Hafif Çelik Ofisler</p></a></LI>
+                                    <LI><a href="###"><p class="PRODUCTS-S-TEXT">İki ve Çok Katlı Çelik Evler</p></a></LI>
+                                    <LI><a href="###"><p class="PRODUCTS-S-TEXT">Tek Katlı Çelik Evler</p></a></LI>
+                                 </UL>
+                            </div>
+                    
+                        </div>
+                        
+        
+        
+        
+                    </div>  
+                    
+                    
+                    
+                   
+                    </DIV></li>
+                    <li class="menuItem"><a href="#######"><DIV class="not-active-DIV"><p class="not-active-text"><span lang="en">REFERENCES</span><span lang="tr">REFERANSLAR</span><span lang="ar">المراجع</span></p>
+                    <DIV class="HOVERD-not-active"></DIV></DIV></a></li>
+                    <li class="menuItem"><a href="#######"><DIV class="not-active-DIV"><p class="not-active-text"><span lang="en">OUR NEWS</span><span lang="tr">HABERLERIMIZ</span><span lang="ar">أخبارنا</span></p>
+                        <DIV class="HOVERD-not-active"></DIV></DIV></a></li>
+                    <li class="menuItem"><a href="#######"><DIV class="not-active-DIV"><p class="not-active-text"><span lang="en">ABOUT US</span><span lang="tr">HAKKIMIZDA</span><span lang="ar">من نحن</span></p>
+                        <DIV class="HOVERD-not-active"></DIV></DIV></a></li>
+                    <li class="menuItem"><a href="#######"><DIV class="not-active-DIV"><p class="not-active-text"><span lang="en">CONTACT</span><span lang="tr">İLETİŞİM</span><span lang="ar">اتصل بنا</span></p>
+                        <DIV class="HOVERD-not-active"></DIV></DIV></a></li>
+                    <li class="menuItem"><a href="#######"><DIV class="lang-DIV"><p class="active-text"><span lang="en">EN</span><span lang="tr">TR</span><span lang="ar">AR</span></p>
+                        <DIV class="HOVERD-H"></DIV>
+                        <DIV class="HOVERD-not-active-lang"></DIV>
+                        <ul class="lang-ul">
+                            
+                            <LI class="lang-li"><a href="#"><DIV id="switch-lang-en" class="S-lang-div"><p class="lang-t">EN</p></DIV></a></LI>
+                            <LI class="lang-li"><a href="#"><DIV id="switch-lang-tr" class="S-lang-div"><p class="lang-t">TR</p></DIV></a></LI>
+                            <LI class="lang-li"><a href="#"><DIV id="switch-lang-ar" class="S-lang-div"><p class="lang-t">AR</p></DIV></a></LI>
+                        
+                        
+                        </ul>
+                    
+                    
+                    
+                    
+                    </DIV></a></li>
+                </UL>
+            </DIV>
+        </header>
+        <Section class="background">
+
+            <div class="background-img-div">
+            <img class="background-img" src="/images/S2.jpg" alt=""></div>
+            <div class="background-text-div"><p class="TEXT-M">REFERENCES</p></div>
+        </Section>
+        <section class="REFERENCES-section">
+            <DIV><div class="REFERENCES-big">
+                
+                
+                 <!-- **************************** -->
+                <div class="REFERENCES-W">
+                    <div class="REFERENCES-img-div"><img class="REFERENCES-img" src="/images/R1-GONCA.jpg" alt=""></div>
+                    <div class="REFERENCES-text-div">
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Employer</span><span lang="tr">İşveren</span><span lang="ar">صاحب العمل</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">: Gonca Tekstil</p></div>
+                        </div>
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Country</span><span lang="tr">Ülke</span><span lang="ar">الدولة</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">: Türkiye</p></div>
+                        </div>
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Year</span><span lang="tr">Yıl</span><span lang="ar">السنة</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">: 2021</p></div>
+                        </div>
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Completion time</span><span lang="tr">Tamamlanma Süresi</span><span lang="ar">وقت الانتهاء</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">: 4 Month</span><span lang="tr">: 4 Ay</span><span lang="ar">:4 اشهر</span></p></div>
+                        </div>
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Delivery method</span><span lang="tr">Teslim Şekli</span><span lang="ar">طريقة التسليم</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">: Steel</span><span lang="tr">: Çelik</span><span lang="ar">: حديد صلب</span></p></div>
+                        
+                        </div>
+                        <div class="REFERENCES-text-div-L">
+                            <div class="REFERENCES-text-div-line"></div>
+                        </div>
+                        
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Building information</span><span lang="tr">Yapı Bilgileri</span><span lang="ar">معلومات البناء</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">
+                            </p></div>
+                        </div>
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Building size</span><span lang="tr">Alan</span><span lang="ar">حجم المبنى</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">:
+                            </p></div>
+                        </div>
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Column height</span><span lang="tr">Kolon Yüksekliği</span><span lang="ar">ارتفاع الاعمدة</span></p></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">:
+                            </p></div>
+                        </div>
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Building weight</span><span lang="tr">Bina ağırlığı</span><span lang="ar">وزن البناء</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">:
+                            </p></div>
+                        </div>
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Interior space</span><span lang="tr">Açıklık</span><span lang="ar">الفضاء الداخلي</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">:
+                            </p></div>
+                        </div>
+                        
+                        <a href="####"><div class="REFERENCES-DETAYLI-div-M">
+                            <div class="REFERENCES-DETAYLI"><p class="text-DETAYLI"><span lang="en">More details</span><span lang="tr">Detaylı İncele</span><span lang="ar">المزيد من التفاصيل</span></p></div>
+                            <div class="REFERENCES-DETAYLI-DIV-H"></div>
+                        </div></a>
+
+                    </div>
+                
+                </div>
+                <!-- **************************** -->
+                <div class="REFERENCES-W">
+                    <div class="REFERENCES-img-div"><img class="REFERENCES-img" src="/images/R2-EUROSAN.JPG" alt=""></div>
+                    <div class="REFERENCES-text-div">
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Employer</span><span lang="tr">İşveren</span><span lang="ar">صاحب العمل</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">: Eurosan 
+                            </p></div>
+                        </div>
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Country</span><span lang="tr">Ülke</span><span lang="ar">الدولة</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">: Türkiye
+                            </p></div>
+                        </div>
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Year</span><span lang="tr">Yıl</span><span lang="ar">السنة</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">: 2020
+                            </p></div>
+                        </div>
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Completion time</span><span lang="tr">Tamamlanma Süresi</span><span lang="ar">وقت الانتهاء</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">: 5 Month</span><span lang="tr">: 5 Ay</span><span lang="ar">:5 اشهر</span></p></div>
+                        </div>
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Delivery method</span><span lang="tr">Teslim Şekli</span><span lang="ar">طريقة التسليم</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">: Turnkey</span><span lang="tr">: Anahtar</span><span lang="ar">: تسليم المفتاح</span>
+                            </p></div>
+                        
+                        </div>
+                        <div class="REFERENCES-text-div-L">
+                            <div class="REFERENCES-text-div-line"></div>
+                        </div>
+                        
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Building information</span><span lang="tr">Yapı Bilgileri</span><span lang="ar">معلومات البناء</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">
+                            </p></div>
+                        </div>
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Building size</span><span lang="tr">Alan</span><span lang="ar">حجم المبنى</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">:
+                            </p></div>
+                        </div>
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Column height</span><span lang="tr">Kolon Yüksekliği</span><span lang="ar">ارتفاع الاعمدة</span></p></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">:
+                            </p></div>
+                        </div>
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Building weight</span><span lang="tr">Bina ağırlığı</span><span lang="ar">وزن البناء</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">:
+                            </p></div>
+                        </div>
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Interior space</span><span lang="tr">Açıklık</span><span lang="ar">الفضاء الداخلي</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">:
+                            </p></div>
+                        </div>
+                        
+                        <a href="####"><div class="REFERENCES-DETAYLI-div-M">
+                            <div class="REFERENCES-DETAYLI"><p class="text-DETAYLI"><span lang="en">More details</span><span lang="tr">Detaylı İncele</span><span lang="ar">المزيد من التفاصيل</span></p></div>
+                            <div class="REFERENCES-DETAYLI-DIV-H"></div>
+                        </div></a>
+
+                    </div>
+                
+                </div>
+                <!-- **************************** -->
+                <div class="REFERENCES-W">
+                    <div class="REFERENCES-img-div"><img class="REFERENCES-img" src="/images/R3-2014-12-25 13-51-09.JPG" alt=""></div>
+                    <div class="REFERENCES-text-div">
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Employer</span><span lang="tr">İşveren</span><span lang="ar">صاحب العمل</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">: Tüsadenim
+                            </p></div>
+                        </div>
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Country</span><span lang="tr">Ülke</span><span lang="ar">الدولة</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">: Türkiye
+                            </p></div>
+                        </div>
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Year</span><span lang="tr">Yıl</span><span lang="ar">السنة</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">: 2014
+                            </p></div>
+                        </div>
+                        <div class="REFERENCES-text-div-s">
+                        
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Completion time</span><span lang="tr">Tamamlanma Süresi</span><span lang="ar">وقت الانتهاء</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">: 7 Month</span><span lang="tr">: 7 Ay</span><span lang="ar">:7 اشهر</span></p></div>
+                        
+                        </div>
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Delivery method</span><span lang="tr">Teslim Şekli</span><span lang="ar">طريقة التسليم</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">: Steel
+                            </p></div>
+                        
+                        </div>
+                        <div class="REFERENCES-text-div-L">
+                            <div class="REFERENCES-text-div-line"></div>
+                        </div>
+                        
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Building information</span><span lang="tr">Yapı Bilgileri</span><span lang="ar">معلومات البناء</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">
+                            </p></div>
+                        </div>
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Building size</span><span lang="tr">Alan</span><span lang="ar">حجم المبنى</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">:
+                            </p></div>
+                        </div>
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Column height</span><span lang="tr">Kolon Yüksekliği</span><span lang="ar">ارتفاع الاعمدة</span></p></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">:
+                            </p></div>
+                        </div>
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Building weight</span><span lang="tr">Bina ağırlığı</span><span lang="ar">وزن البناء</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">:
+                            </p></div>
+                        </div>
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Interior space</span><span lang="tr">Açıklık</span><span lang="ar">الفضاء الداخلي</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">:
+                            </p></div>
+                        </div>
+                        
+                        <a href="####"><div class="REFERENCES-DETAYLI-div-M">
+                            <div class="REFERENCES-DETAYLI"><p class="text-DETAYLI"><span lang="en">More details</span><span lang="tr">Detaylı İncele</span><span lang="ar">المزيد من التفاصيل</span></p></div>
+                            <div class="REFERENCES-DETAYLI-DIV-H"></div>
+                        </div></a>
+
+                    </div>
+                
+                </div>
+                <!-- **************************** -->
+                <div class="REFERENCES-W">
+                    <div class="REFERENCES-img-div"><img class="REFERENCES-img" src="/images/R4-2021-03-03 14-40-39.JPG" alt=""></div>
+                    <div class="REFERENCES-text-div">
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Employer</span><span lang="tr">İşveren</span><span lang="ar">صاحب العمل</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">: Terapi Giyim
+                            </p></div>
+                        </div>
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Country</span><span lang="tr">Ülke</span><span lang="ar">الدولة</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">: Türkiye
+                            </p></div>
+                        </div>
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Year</span><span lang="tr">Yıl</span><span lang="ar">السنة</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">: 2020
+                            </p></div>
+                        </div>
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Completion time</span><span lang="tr">Tamamlanma Süresi</span><span lang="ar">وقت الانتهاء</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">: 4 Month</span><span lang="tr">: 4 Ay</span><span lang="ar">:4 اشهر</span></p></div>
+                        </div>
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Delivery method</span><span lang="tr">Teslim Şekli</span><span lang="ar">طريقة التسليم</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">:
+                            </p></div>
+                        
+                        </div>
+                        <div class="REFERENCES-text-div-L">
+                            <div class="REFERENCES-text-div-line"></div>
+                        </div>
+                        
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Building information</span><span lang="tr">Yapı Bilgileri</span><span lang="ar">معلومات البناء</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">
+                            </p></div>
+                        </div>
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Building size</span><span lang="tr">Alan</span><span lang="ar">حجم المبنى</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">:
+                            </p></div>
+                        </div>
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Column height</span><span lang="tr">Kolon Yüksekliği</span><span lang="ar">ارتفاع الاعمدة</span></p></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">:
+                            </p></div>
+                        </div>
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Building weight</span><span lang="tr">Bina ağırlığı</span><span lang="ar">وزن البناء</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">:
+                            </p></div>
+                        </div>
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Interior space</span><span lang="tr">Açıklık</span><span lang="ar">الفضاء الداخلي</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">:
+                            </p></div>
+                        </div>
+                        
+                        <a href="####"><div class="REFERENCES-DETAYLI-div-M">
+                            <div class="REFERENCES-DETAYLI"><p class="text-DETAYLI"><span lang="en">More details</span><span lang="tr">Detaylı İncele</span><span lang="ar">المزيد من التفاصيل</span></p></div>
+                            <div class="REFERENCES-DETAYLI-DIV-H"></div>
+                        </div></a>
+
+                    </div>
+                
+                </div>
+                <!-- **************************** -->
+                <div class="REFERENCES-W">
+                    <div class="REFERENCES-img-div"><img class="REFERENCES-img" src="/images/R5-galeri-19.png" alt=""></div>
+                    <div class="REFERENCES-text-div">
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Employer</span><span lang="tr">İşveren</span><span lang="ar">صاحب العمل</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">: Rimaks
+                            </p></div>
+                        </div>
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Country</span><span lang="tr">Ülke</span><span lang="ar">الدولة</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">: Türkiye
+                            </p></div>
+                        </div>
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Year</span><span lang="tr">Yıl</span><span lang="ar">السنة</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">: 2019
+                            </p></div>
+                        </div>
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Completion time</span><span lang="tr">Tamamlanma Süresi</span><span lang="ar">وقت الانتهاء</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">: 3 Month</span><span lang="tr">: 3 Ay</span><span lang="ar">:3 اشهر</span>
+
+                            </p></div>
+                        </div>
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Delivery method</span><span lang="tr">Teslim Şekli</span><span lang="ar">طريقة التسليم</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">
+                            </p></div>
+                        
+                        </div>
+                        <div class="REFERENCES-text-div-L">
+                            <div class="REFERENCES-text-div-line"></div>
+                        </div>
+                        
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Building information</span><span lang="tr">Yapı Bilgileri</span><span lang="ar">معلومات البناء</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">
+                            </p></div>
+                        </div>
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Building size</span><span lang="tr">Alan</span><span lang="ar">حجم المبنى</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">:
+                            </p></div>
+                        </div>
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Column height</span><span lang="tr">Kolon Yüksekliği</span><span lang="ar">ارتفاع الاعمدة</span></p></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">:
+                            </p></div>
+                        </div>
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Building weight</span><span lang="tr">Bina ağırlığı</span><span lang="ar">وزن البناء</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">:
+                            </p></div>
+                        </div>
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Interior space</span><span lang="tr">Açıklık</span><span lang="ar">الفضاء الداخلي</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">:
+                            </p></div>
+                        </div>
+                        
+                        <a href="####"><div class="REFERENCES-DETAYLI-div-M">
+                            <div class="REFERENCES-DETAYLI"><p class="text-DETAYLI"><span lang="en">More details</span><span lang="tr">Detaylı İncele</span><span lang="ar">المزيد من التفاصيل</span></p></div>
+                            <div class="REFERENCES-DETAYLI-DIV-H"></div>
+                        </div></a>
+
+                    </div>
+                
+                </div>
+                <!-- **************************** -->
+                <div class="REFERENCES-W">
+                    <div class="REFERENCES-img-div"><img class="REFERENCES-img" src="/images/R6-2017-12-09 11-09-19.JPG" alt=""></div>
+                    <div class="REFERENCES-text-div">
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Employer</span><span lang="tr">İşveren</span><span lang="ar">صاحب العمل</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">: BARTIN SERAMİK
+                            </p></div>
+                        </div>
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Country</span><span lang="tr">Ülke</span><span lang="ar">الدولة</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">: Türkiye
+                            </p></div>
+                        </div>
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Year</span><span lang="tr">Yıl</span><span lang="ar">السنة</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">: 2021
+                            </p></div>
+                        </div>
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Completion time</span><span lang="tr">Tamamlanma Süresi</span><span lang="ar">وقت الانتهاء</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">: 2 Month</span><span lang="tr">: 2 Ay</span><span lang="ar">:2 اشهر</span>
+
+                            </p></div>
+                        </div>
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Delivery method</span><span lang="tr">Teslim Şekli</span><span lang="ar">طريقة التسليم</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">: Steel covering</span><span lang="tr">: Çelik Kaplama</span><span lang="ar">:تغطية فولاذ</span></p></div>
+                        
+                        </div>
+                        <div class="REFERENCES-text-div-L">
+                            <div class="REFERENCES-text-div-line"></div>
+                        </div>
+                        
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Building information</span><span lang="tr">Yapı Bilgileri</span><span lang="ar">معلومات البناء</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">
+                            </p></div>
+                        </div>
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Building size</span><span lang="tr">Alan</span><span lang="ar">حجم المبنى</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">:
+                            </p></div>
+                        </div>
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Column height</span><span lang="tr">Kolon Yüksekliği</span><span lang="ar">ارتفاع الاعمدة</span></p></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">:
+                            </p></div>
+                        </div>
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Building weight</span><span lang="tr">Bina ağırlığı</span><span lang="ar">وزن البناء</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">:
+                            </p></div>
+                        </div>
+                        <div class="REFERENCES-text-div-s">
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF"><span lang="en">Interior space</span><span lang="tr">Açıklık</span><span lang="ar">الفضاء الداخلي</span></p></div>
+                            <div class="REFERENCES-text-div-loc-s"><p class="text-REF">:
+                            </p></div>
+                        </div>
+                        
+                        <a href="####"><div class="REFERENCES-DETAYLI-div-M">
+                            <div class="REFERENCES-DETAYLI"><p class="text-DETAYLI"><span lang="en">More details</span><span lang="tr">Detaylı İncele</span><span lang="ar">المزيد من التفاصيل</span></p></div>
+                            <div class="REFERENCES-DETAYLI-DIV-H"></div>
+                        </div></a>
+
+                    </div>
+                
+                </div>
+                <!-- **************************** -->
+
+            </div>
+            <div class="line-in-mid"></div>
+        
+        </DIV>
+                
+       
+        
+        
+            </section>
+
+            <div class="Page-M-DIV">
+                <DIV class="Page-R"></DIV>
+                <DIV class="Page-L">
+                    <a href="###"><div class="Page-N Page-A"><p class="number A-number">1</p></div></a>
+                    <a href="###"><div class="Page-N"><p class="number">2</p></div></a>
+                    <a href="###"><div class="Page-N"><p class="number">3</p></div></a>
+                    <a href="###"><div class="Page-N"><p class="number">4</p></div></a>
+
+
+
+                </DIV>
+
+
+
+
+            </div>
+
+
+
+
+        
+        <footer class="footer-inf">
+            <div class="footer-L">
+            
+            <div class="footer-inf-div" >
+                <div class="footer-inf-text-M-div"><a href="####"></a><p class="footer-inf-text-M">Heavy seel</p></a></div>
+                <div class="footer-inf-text-S-div">
+                    
+                    
+                    <a href="####"><p class="footer-inf-text-S">Prefabrik Ev Fiyatları</p></a>
+                    <a href="####"><p class="footer-inf-text-S">Prefabrik Ev Modelleri</p>
+                    <a href="####"><p class="footer-inf-text-S">Prefabrik Villa ve Konutları</p></a>
+                    <a href="####"><p class="footer-inf-text-S">İki Katlı Prefabrik Konutlar</p></a>
+                    <a href="####"><p class="footer-inf-text-S">Tek Katlı Prefabrik Evler</p></a>
+                               </div>
+            </div>
+            <div class="footer-inf-div" >
+                <div class="footer-inf-text-M-div"><a href="####"><p class="footer-inf-text-M">Prefabrication</p></a></div>
+                <div class="footer-inf-text-S-div">
+                    
+                    
+                    <a href="####"><p class="footer-inf-text-S">Prefabrik Şantiye Binaları</p></a>
+                    <a href="####"><p class="footer-inf-text-S">Prefabrik Ofis ve Yönetim Binaları</p></a>
+                    <a href="####"><p class="footer-inf-text-S">Prefabrik Yemekhane Binaları</p></a>
+                    <a href="####"><p class="footer-inf-text-S">Prefabrik Yatakhane Binaları</p></a>
+                    <a href="####"><p class="footer-inf-text-S">Prefabrik Sosyal Tesis Binaları</p></a>
+                               </div>
+            </div>
+            <div class="footer-inf-div" >
+                <div class="footer-inf-text-M-div"> <a href="####"><p class="footer-inf-text-M">Light steel</p></a></div>
+                <div class="footer-inf-text-S-div">
+                    
+                    
+                    <a href="####"><p class="footer-inf-text-S">Tek Katlı Prefabrik Evler</p></a>
+                    <a href="####"><p class="footer-inf-text-S">İki Katlı Prefabrik Konutlar</p></a>
+                    <a href="####"><p class="footer-inf-text-S">Prefabrik Villa ve Konutları</p></a>
+                    <a href="####"><p class="footer-inf-text-S">Prefabrik Ev Modelleri</p></a>
+                    <a href="####"><p class="footer-inf-text-S">Prefabrik Ev Fiyatları</p></a>
+                               </div>
+            </div>
+        </div>
+        <div class="footer-M"></div>
+        <DIV class="footer-R" >
+            <div class="Conact-footer">
+                <div class="conact-footer-M">
+                    <div class="conact-text-div">
+                        <div class="conact-text" ><p class="conact-text-m conact-text">conact</p></div>
+                        <div class="social-text" ><p class="conact-text-m social-text">social</p></div>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    <div class="conact-ifo-text-div">
+                    <div class="conact-inf-div-M">
+                        <div class="conact-inf-div-1">
+                            <div class="conact-IMG-DIV"><img class="conact-icon" src="/images/phone.png" alt=""></div>
+                            <p class="conact-text-s">+90 378 263 80 09</p>
+                        </div>
+                        <div class="conact-inf-div-1">
+                            <div class="conact-IMG-DIV"><img  class="conact-icon"  src="/images/FAX.png" alt=""></div>
+                            <p class="conact-text-s">+90 378 263 80 95</p>
+                        </div>
+        
+        
+                    </div>
+                    <div class="conact-inf-div-M">
+                        <div class="conact-inf-div-1">
+                            <div class="conact-IMG-DIV"><img class="conact-icon" src="/images/email.png" alt=""></div>
+                            <p class="conact-text-s">info@celikerler.com</p>
+                        </div>
+                        
+                        
+                        
+                        <div class="conact-inf-div-1">
+                            <div class="conact-IMG-DIV"><img class="conact-icon" src="/images/email.png" alt=""></div>
+                            <p class="conact-text-s">satis@celikerler.com</p>
+                        </div>
+                    
+                    </div>
+                    <div class="conact-inf-div-M">
+                        <div class="conact-inf-div-2">
+                            <div class="conact-IMG-DIV"><img class="conact-icon" src="/images/address.png" alt=""></div>
+                            <div class="conact-text-ad-DIV"><p class="conact-text-s">Terkehatipler Köyü Yağcı Mah. Çelikerler Fabrikası No:8 Kozcağız Yolu 3.Km Merkez/BARTIN</p></div>
+                            
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <div class="conact-inf-div-M">
+                        <div class="conact-inf-div-2">
+                            <a href="####"><div class="social-img-div"><img class="icon-social-f" src="/images/FACEBOOK.png" alt=""></div></a>
+                            <a href="####"><div class="social-img-div"><img class="icon-social-i"  src="/images/INSTAGRAM.png" alt=""></div></a>
+                        </div>
+                    </div>
+        
+        
+        
+        
+                    </div>
+        
+        
+                </div>
+            </div>
+        </DIV>
+        
+        
+        </footer>
+
+
+
+
+
+    </body>
+</html>
